@@ -28,23 +28,22 @@ function CardWrapper({ children }: { children: ReactNode }) {
 function Introduction() {
   return (
     <div>
+      <p className="text-4xl">About Littleboy&apos;s token, LittleBoyCoin :</p>
+      <br />
       <p className="text-4xl">
-        Littleboy Token: Games, Shop with Crypto Merch, and Much More...
+        $LBC is a multi purpose token on the OCTA network. Soon to be on others
+        such as altcoinchain, bsc, polygon and eth. The main purpose is for use
+        on Littleboy&apos;s website services such as games, merch and more,
+        using $LBC for purchases and for prize payouts.
       </p>
       <br />
       <p className="text-4xl">
-        Littleboy Token has gambling games with LBC tokens. The profits from
-        these games will be burned, resulting in a decrease in token supply. We
-        also have plans to open our shop, where we will accept crypto payments
-        and use LBC for payouts. While we are primarily a token, we have
-        ambitious plans to build a lot around it and are always open to your
-        ideas. Littleboy Token utilizes a very fast, scalable, and early
-        blockchain called Octa Chain.
+        A % from the profits will be burnt to decrease supply. We plan to build
+        alot around this token and we&apos;re always open to community ideas.
       </p>
       <br />
       <p className="text-4xl">
-        Some history: Little Boy was the type of atomic bomb dropped on the
-        Japanese city of Hiroshima on August 6, 1945, during World War II.
+        Fun fact : Littleboy was also the name of a nuclear warhead in WWII.
       </p>
     </div>
   );
@@ -92,7 +91,7 @@ function Tokenomics() {
         </div>
       </div>
       <div className="mt-10 flex flex-col items-center gap-4 lg:mx-4">
-        <div className="w-3/4 flex-1 transform-gpu rounded-md border-2 border-black !bg-[#bfa44b] p-1 text-3xl transition-transform duration-100 hover:scale-110 md:w-2/3 md:text-4xl lg:w-full lg:p-2 lg:text-left lg:text-[30px]">
+        <div className="w-3/4 flex-1 rounded-md border-2 border-black !bg-[#bfa44b] p-1 text-3xl md:w-2/3 md:text-4xl lg:w-full lg:p-2 lg:text-left lg:text-[30px]">
           <div className="border-2 border-black !bg-[#e0c04a] p-3">
             The purpose of these tokens can be changed or adjusted based on the
             community&apos;s requests.

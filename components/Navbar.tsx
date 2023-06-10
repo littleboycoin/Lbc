@@ -4,7 +4,7 @@ import { Navbar as Navbars } from "flowbite-react";
 
 export default function Navbar() {
   return (
-    <Navbars fluid>
+    <Navbars fluid className="!bg-transparent">
       <Navbars.Brand
         href=""
         className="transform-gpu rounded-md border-2 border-black !bg-[#bfa44b] p-1 transition-transform duration-300 hover:scale-110"
