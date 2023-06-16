@@ -14,7 +14,6 @@ export default function Home() {
       <Tokenomics />
       <Roadmap />
       <Resources />
-      <Closing />
     </HomeWrapper>
   );
 }
@@ -622,15 +621,5 @@ function Resources() {
         </div>
       </div>
     </>
-  );
-}
-
-function Closing() {
-  return (
-    <div className="mx-auto mb-10 mt-10 flex w-4/5 justify-center">
-      <h1 className="mx-3 rounded-md border-2 border-black !bg-[#e0c04a] p-3 text-3xl font-semibold lg:text-4xl">
-        Little boys will became a big men!
-      </h1>
-    </div>
   );
 }
