@@ -116,100 +116,318 @@ function Roadmap() {
       <div className="mt-10">
         <ul className="mt-14 space-y-10 px-2 md:flex md:flex-col md:items-center">
           <li className="flex-1 space-y-3 rounded-md border-2 border-black !bg-[#aaeac0] p-4 md:w-3/4 md:flex-1 md:space-y-5">
-            <div className="flex items-center space-x-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="green"
-                className="h-7 w-7"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
-                  clipRule="evenodd"
-                />
-              </svg>
-
+            <div>
               <h4 className="text-3xl font-medium md:text-2xl lg:text-3xl">
                 Phase-1
               </h4>
             </div>
-            <p className="pl-7 text-2xl lg:text-2xl">
-              -&gt; Site release, games section, first-game lottery, promotional
-              airdrop
-            </p>
+            <span className="pl-7 text-2xl lg:text-2xl">
+              <ul>
+                <li>
+                  <div className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="green"
+                      className="h-7 w-7"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+
+                    <a>Site release</a>
+                  </div>
+                </li>
+                <li>
+                  <div className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="red"
+                      className="h-7 w-7"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+
+                    <a>Games section</a>
+                  </div>
+                </li>
+                <li>
+                  <div className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="red"
+                      className="h-7 w-7"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+
+                    <a>First-game lottery</a>
+                  </div>
+                </li>
+                <li>
+                  <div className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="green"
+                      className="h-7 w-7"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+
+                    <a>Promotional airdrop</a>
+                  </div>
+                </li>
+              </ul>
+            </span>
           </li>
           <li className="flex-1 space-y-3 rounded-md border-2 border-black !bg-[#aaeac0] p-4 md:w-3/4 md:flex-1 md:space-y-5">
-            <div className="flex items-center space-x-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="red"
-                className="h-7 w-7"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z"
-                  clipRule="evenodd"
-                />
-              </svg>
-
+            <div>
               <h4 className="text-3xl font-medium md:text-2xl lg:text-3xl">
                 Phase-2
               </h4>
             </div>
-            <p className="pl-7 text-2xl lg:text-2xl">
-              -&gt; CEX Listing. bridges to other chains, new DEXs, promotional
-              airdrop.
-            </p>
+            <span className="pl-7 text-2xl lg:text-2xl">
+              <ul>
+                <li>
+                  <div className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="green"
+                      className="h-7 w-7"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+
+                    <a>CEX Listing</a>
+                  </div>
+                </li>
+                <li>
+                  <div className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="red"
+                      className="h-7 w-7"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+
+                    <a>Bridge to other chains</a>
+                  </div>
+                </li>
+                <li>
+                  <div className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="red"
+                      className="h-7 w-7"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+
+                    <a>New DEXs</a>
+                  </div>
+                </li>
+                <li>
+                  <div className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="red"
+                      className="h-7 w-7"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+
+                    <a>Promotional airdrop</a>
+                  </div>
+                </li>
+              </ul>
+            </span>
           </li>
           <li className="flex-1 space-y-3 rounded-md border-2 border-black !bg-[#aaeac0] p-4 md:w-3/4 md:flex-1 md:space-y-5">
-            <div className="flex items-center space-x-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="red"
-                className="h-7 w-7"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z"
-                  clipRule="evenodd"
-                />
-              </svg>
-
+            <div>
               <h4 className="text-3xl font-medium md:text-2xl lg:text-3xl">
                 Phase-3
               </h4>
             </div>
-            <p className="pl-7 text-2xl lg:text-2xl">
-              -&gt; New games in the game section, shop/marketplace section
-              open, promotional airdrop
-            </p>
+            <span className="pl-7 text-2xl lg:text-2xl">
+              <ul>
+                <li>
+                  <div className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="red"
+                      className="h-8 w-8 md:h-7 md:w-7"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+
+                    <a>New games in the game section</a>
+                  </div>
+                </li>
+                <li>
+                  <div className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="red"
+                      className="h-8 w-8 md:h-7 md:w-7"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+
+                    <a>Shop/marketplace section open</a>
+                  </div>
+                </li>
+                <li>
+                  <div className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="red"
+                      className="h-7 w-7"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+
+                    <a>Promotional airdrop</a>
+                  </div>
+                </li>
+              </ul>
+            </span>
           </li>
           <li className="flex-1 space-y-3 rounded-md border-2 border-black !bg-[#aaeac0] p-4 md:w-3/4 md:flex-1 md:space-y-5">
-            <div className="flex items-center space-x-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="red"
-                className="h-7 w-7"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z"
-                  clipRule="evenodd"
-                />
-              </svg>
-
+            <div>
               <h4 className="text-3xl font-medium md:text-2xl lg:text-3xl">
                 Phase-4
               </h4>
             </div>
-            <p className="pl-7 text-2xl lg:text-2xl">
-              -&gt; Accepting new ideas from community for new games, merges,
-              drops, marketing etc.
-            </p>
+            <span className="pl-7 text-2xl lg:text-2xl">
+              <ul>
+                <li>
+                  <div className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="red"
+                      className="h-12 w-12 md:h-7 md:w-7"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+
+                    <a>Accepting new ideas from community for new games</a>
+                  </div>
+                </li>
+                <li>
+                  <div className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="red"
+                      className="h-7 w-7"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+
+                    <a>Merges</a>
+                  </div>
+                </li>
+                <li>
+                  <div className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="red"
+                      className="h-7 w-7"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+
+                    <a>Drops</a>
+                  </div>
+                </li>
+                <li>
+                  <div className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="red"
+                      className="h-7 w-7"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+
+                    <a>Marketing etc</a>
+                  </div>
+                </li>
+              </ul>
+            </span>
           </li>
         </ul>
       </div>
@@ -228,42 +446,31 @@ function Resources() {
           <div className="mt-7 flex-1 rounded-md border-2 !border-black !bg-[#ead792] p-3 md:hidden ">
             <ul>
               <li>
-                <span className="text-3xl">
-                  Twitter:{" "}
-                  <a
-                    href="https://twitter.com/littleboys_coin"
-                    className="font-semibold underline"
-                  >
-                    -&gt; Link
-                  </a>
-                </span>
+                <a
+                  href="https://twitter.com/littleboys_coin"
+                  className="text-3xl font-semibold underline"
+                >
+                  Twitter
+                </a>
               </li>
               <li>
-                <span className="text-3xl">
-                  Discord:{" "}
-                  <a
-                    href="https://discord.gg/FMWz38Cd"
-                    className="font-semibold underline"
-                  >
-                    -&gt; Link
-                  </a>
-                </span>
+                <a
+                  href="https://discord.gg/FMWz38Cd"
+                  className="text-3xl font-semibold underline"
+                >
+                  Discord
+                </a>
               </li>
               <li>
-                <span className="text-3xl">
-                  Telegram:{" "}
-                  <a
-                    href="https://t.me/lbcgroup1"
-                    className="font-semibold underline"
-                  >
-                    -&gt; Link
-                  </a>
-                </span>
+                <a
+                  href="https://t.me/lbcgroup1"
+                  className="text-3xl font-semibold underline"
+                >
+                  Telegram
+                </a>
               </li>
               <li>
-                <span className="text-3xl">
-                  Whitepaper: <a className="font-semibold">TBA</a>
-                </span>
+                <a className="text-3xl font-semibold underline">Whitepaper</a>
               </li>
             </ul>
             <p className="mt-5 text-2xl">
@@ -332,42 +539,31 @@ function Resources() {
         <div className="flex-1 rounded-md border-2 !border-black !bg-[#ead792] p-3 text-center">
           <ul>
             <li>
-              <span className="text-3xl lg:text-4xl">
-                Twitter:{" "}
-                <a
-                  href="https://twitter.com/littleboys_coin"
-                  className="font-semibold underline"
-                >
-                  -&gt; Link
-                </a>
-              </span>
+              <a
+                href="https://twitter.com/littleboys_coin"
+                className="text-3xl font-semibold underline"
+              >
+                Twitter
+              </a>
             </li>
             <li>
-              <span className="text-3xl lg:text-4xl">
-                Discord:{" "}
-                <a
-                  href="https://discord.gg/FMWz38Cd"
-                  className="font-semibold underline"
-                >
-                  -&gt; Link
-                </a>
-              </span>
+              <a
+                href="https://discord.gg/FMWz38Cd"
+                className="text-3xl font-semibold underline"
+              >
+                Discord
+              </a>
             </li>
             <li>
-              <span className="text-3xl lg:text-4xl">
-                Telegram:{" "}
-                <a
-                  href="https://t.me/lbcgroup1"
-                  className="font-semibold underline"
-                >
-                  -&gt; Link
-                </a>
-              </span>
+              <a
+                href="https://t.me/lbcgroup1"
+                className="text-3xl font-semibold underline"
+              >
+                Telegram
+              </a>
             </li>
             <li>
-              <span className="text-3xl lg:text-4xl">
-                Whitepaper: <a className="font-semibold">TBA</a>
-              </span>
+              <a className="text-3xl font-semibold underline">Whitepaper</a>
             </li>
           </ul>
           <p className="mt-5 text-2xl lg:text-3xl">
