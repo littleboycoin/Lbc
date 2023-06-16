@@ -1,5 +1,6 @@
+"use client";
+
 import Card from "@/components/Card";
-import { ReactNode } from "react";
 
 export default function Home() {
   return (
@@ -11,15 +12,18 @@ export default function Home() {
       </CardWrapper>
 
       <Tokenomics />
+      <Roadmap />
+      <Resources />
+      <Closing />
     </HomeWrapper>
   );
 }
 
-function HomeWrapper({ children }: { children: ReactNode }) {
+function HomeWrapper({ children }: { children: React.ReactNode }) {
   return <div className="">{children}</div>;
 }
 
-function CardWrapper({ children }: { children: ReactNode }) {
+function CardWrapper({ children }: { children: React.ReactNode }) {
   return (
     <div className="mt-10 flex items-center justify-center">{children}</div>
   );
@@ -51,8 +55,8 @@ function Introduction() {
 
 function Tokenomics() {
   return (
-    <div className="mb-14 mt-14 text-center">
-      <h1 className="m-auto w-fit rounded-md border-2 border-black !bg-[#e0c04a] p-3 text-4xl font-semibold md:text-5xl lg:p-3 lg:text-5xl">
+    <div className="mt-14 text-center">
+      <h1 className="m-auto w-fit rounded-md border-2 border-black !bg-[#e0c04a] p-3 text-4xl font-bold md:text-5xl lg:p-3 lg:text-5xl">
         Tokenomics
       </h1>
       <div className="mt-10 flex flex-col items-center gap-4 lg:mx-4 lg:flex-row">
@@ -98,6 +102,339 @@ function Tokenomics() {
           </div>
         </div>
       </div>
+    </div>
+  );
+}
+
+function Roadmap() {
+  return (
+    <div className="mb-14 mt-14">
+      <h2 className="m-auto w-fit rounded-md border-2 border-black !bg-[#53ad70] p-3 text-4xl font-bold md:text-5xl">
+        Roadmap
+      </h2>
+
+      <div className="mt-10">
+        <ul className="mt-14 space-y-10 px-2 md:flex md:flex-col md:items-center">
+          <li className="flex-1 space-y-3 rounded-md border-2 border-black !bg-[#aaeac0] p-4 md:w-3/4 md:flex-1 md:space-y-5">
+            <div className="flex items-center space-x-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="green"
+                className="h-7 w-7"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                  clipRule="evenodd"
+                />
+              </svg>
+
+              <h4 className="text-3xl font-medium md:text-2xl lg:text-3xl">
+                Phase-1
+              </h4>
+            </div>
+            <p className="pl-7 text-2xl lg:text-2xl">
+              -&gt; Site release, games section, first-game lottery, promotional
+              airdrop
+            </p>
+          </li>
+          <li className="flex-1 space-y-3 rounded-md border-2 border-black !bg-[#aaeac0] p-4 md:w-3/4 md:flex-1 md:space-y-5">
+            <div className="flex items-center space-x-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="red"
+                className="h-7 w-7"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z"
+                  clipRule="evenodd"
+                />
+              </svg>
+
+              <h4 className="text-3xl font-medium md:text-2xl lg:text-3xl">
+                Phase-2
+              </h4>
+            </div>
+            <p className="pl-7 text-2xl lg:text-2xl">
+              -&gt; CEX Listing. bridges to other chains, new DEXs, promotional
+              airdrop.
+            </p>
+          </li>
+          <li className="flex-1 space-y-3 rounded-md border-2 border-black !bg-[#aaeac0] p-4 md:w-3/4 md:flex-1 md:space-y-5">
+            <div className="flex items-center space-x-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="red"
+                className="h-7 w-7"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z"
+                  clipRule="evenodd"
+                />
+              </svg>
+
+              <h4 className="text-3xl font-medium md:text-2xl lg:text-3xl">
+                Phase-3
+              </h4>
+            </div>
+            <p className="pl-7 text-2xl lg:text-2xl">
+              -&gt; New games in the game section, shop/marketplace section
+              open, promotional airdrop
+            </p>
+          </li>
+          <li className="flex-1 space-y-3 rounded-md border-2 border-black !bg-[#aaeac0] p-4 md:w-3/4 md:flex-1 md:space-y-5">
+            <div className="flex items-center space-x-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="red"
+                className="h-7 w-7"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z"
+                  clipRule="evenodd"
+                />
+              </svg>
+
+              <h4 className="text-3xl font-medium md:text-2xl lg:text-3xl">
+                Phase-4
+              </h4>
+            </div>
+            <p className="pl-7 text-2xl lg:text-2xl">
+              -&gt; Accepting new ideas from community for new games, merges,
+              drops, marketing etc.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+}
+
+function Resources() {
+  return (
+    <>
+      <div className="flex flex-col justify-center gap-x-24 md:flex-row">
+        <div className="mx-5 text-center">
+          <div className="rounded-md border-2 border-black !bg-[#e0c04a] p-3 text-4xl font-bold lg:text-5xl">
+            Official Links
+          </div>
+          <div className="mt-7 flex-1 rounded-md border-2 !border-black !bg-[#ead792] p-3 md:hidden ">
+            <ul>
+              <li>
+                <span className="text-3xl">
+                  Twitter:{" "}
+                  <a
+                    href="https://twitter.com/littleboys_coin"
+                    className="font-semibold underline"
+                  >
+                    -&gt; Link
+                  </a>
+                </span>
+              </li>
+              <li>
+                <span className="text-3xl">
+                  Discord:{" "}
+                  <a
+                    href="https://discord.gg/FMWz38Cd"
+                    className="font-semibold underline"
+                  >
+                    -&gt; Link
+                  </a>
+                </span>
+              </li>
+              <li>
+                <span className="text-3xl">
+                  Telegram:{" "}
+                  <a
+                    href="https://t.me/lbcgroup1"
+                    className="font-semibold underline"
+                  >
+                    -&gt; Link
+                  </a>
+                </span>
+              </li>
+              <li>
+                <span className="text-3xl">
+                  Whitepaper: <a className="font-semibold">TBA</a>
+                </span>
+              </li>
+            </ul>
+            <p className="mt-5 text-2xl">
+              You can contribute. We are open for all ideas and users.
+            </p>
+          </div>
+        </div>
+
+        <div className="mx-5">
+          <div className="mt-14 rounded-md border-2 border-black !bg-[#e0c04a] p-3 text-center text-4xl font-bold md:mt-0 lg:text-5xl">
+            Metamask
+          </div>
+          <div className="mt-7 flex-1 rounded-md border-2 !border-black !bg-[#ead792] p-3 md:hidden">
+            <ul>
+              <li>
+                <span className="text-2xl">
+                  Network Name: <a className="font-semibold">Octaspace</a>
+                </span>
+              </li>
+              <li>
+                <span className="text-2xl">
+                  RPC URL:{" "}
+                  <a
+                    href="https://rpc.octa.space"
+                    className="font-semibold underline"
+                  >
+                    -&gt; Link
+                  </a>
+                </span>
+              </li>
+              <li>
+                <span className="text-2xl">
+                  Chain ID: <a className="font-semibold">800001</a>
+                </span>
+              </li>
+              <li>
+                <span className="text-2xl">
+                  Symbol: <a className="font-semibold">OCTA</a>
+                </span>
+              </li>
+              <li>
+                <span className="text-2xl">
+                  Explorer:{" "}
+                  <a
+                    href="https://explorer.octa.space"
+                    className="font-semibold underline"
+                  >
+                    -&gt; Link
+                  </a>
+                </span>
+              </li>
+              <li>
+                <span className="text-2xl">
+                  Token Contract:{" "}
+                  <a className="break-all font-semibold">
+                    0x59dbfdc05a1e460dd374167a4041c31275ebce04
+                  </a>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="mx-7 mt-7 hidden justify-center gap-x-5 md:flex">
+        <div className="flex-1 rounded-md border-2 !border-black !bg-[#ead792] p-3 text-center">
+          <ul>
+            <li>
+              <span className="text-3xl lg:text-4xl">
+                Twitter:{" "}
+                <a
+                  href="https://twitter.com/littleboys_coin"
+                  className="font-semibold underline"
+                >
+                  -&gt; Link
+                </a>
+              </span>
+            </li>
+            <li>
+              <span className="text-3xl lg:text-4xl">
+                Discord:{" "}
+                <a
+                  href="https://discord.gg/FMWz38Cd"
+                  className="font-semibold underline"
+                >
+                  -&gt; Link
+                </a>
+              </span>
+            </li>
+            <li>
+              <span className="text-3xl lg:text-4xl">
+                Telegram:{" "}
+                <a
+                  href="https://t.me/lbcgroup1"
+                  className="font-semibold underline"
+                >
+                  -&gt; Link
+                </a>
+              </span>
+            </li>
+            <li>
+              <span className="text-3xl lg:text-4xl">
+                Whitepaper: <a className="font-semibold">TBA</a>
+              </span>
+            </li>
+          </ul>
+          <p className="mt-5 text-2xl lg:text-3xl">
+            You can contribute. We are open for all ideas and users.
+          </p>
+        </div>
+
+        <div className="flex-1 rounded-md border-2 !border-black !bg-[#ead792] p-3">
+          <ul>
+            <li>
+              <span className="text-2xl lg:text-3xl">
+                Network Name: <a className="font-semibold">Octaspace</a>
+              </span>
+            </li>
+            <li>
+              <span className="text-2xl lg:text-3xl">
+                RPC URL:{" "}
+                <a
+                  href="https://rpc.octa.space"
+                  className="font-semibold underline"
+                >
+                  -&gt; Link
+                </a>
+              </span>
+            </li>
+            <li>
+              <span className="text-2xl lg:text-3xl">
+                Chain ID: <a className="font-semibold">800001</a>
+              </span>
+            </li>
+            <li>
+              <span className="text-2xl lg:text-3xl">
+                Symbol: <a className="font-semibold">OCTA</a>
+              </span>
+            </li>
+            <li>
+              <span className="text-2xl lg:text-3xl">
+                Explorer:{" "}
+                <a
+                  href="https://explorer.octa.space"
+                  className="font-semibold underline"
+                >
+                  -&gt; Link
+                </a>
+              </span>
+            </li>
+            <li>
+              <span className="text-2xl lg:text-3xl">
+                Token Contract:{" "}
+                <a className="break-all font-semibold">
+                  0x59dbfdc05a1e460dd374167a4041c31275ebce04
+                </a>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </>
+  );
+}
+
+function Closing() {
+  return (
+    <div className="mx-auto mb-10 mt-10 flex w-4/5 justify-center">
+      <h1 className="mx-3 rounded-md border-2 border-black !bg-[#e0c04a] p-3 text-3xl font-semibold lg:text-4xl">
+        Little boys will became a big men!
+      </h1>
     </div>
   );
 }

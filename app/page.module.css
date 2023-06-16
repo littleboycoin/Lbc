@@ -1,0 +1,25 @@
+.phase:before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 2px;
+  background-color: #718096;
+}
+
+.phase:first-child:before {
+  display: none;
+}
+
+.phase:last-child:after {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 2px;
+  background-color: #718096;
+}
