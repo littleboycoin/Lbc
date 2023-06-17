@@ -85,7 +85,7 @@ function Tokenomics() {
           15% Community Pools
         </div>
         <div className="w-3/4 flex-1 transform-gpu rounded-md border-2 border-black !bg-[#e0c04a] p-2 text-3xl transition-transform duration-100 hover:ml-6 hover:mr-6 hover:scale-110 md:w-2/3 md:text-4xl lg:p-3 lg:text-4xl">
-          10% Liquidity Pools
+          15% Liquidity Pools
         </div>
       </div>
       <div className="mt-10 flex flex-col items-center gap-4 lg:mx-4">
