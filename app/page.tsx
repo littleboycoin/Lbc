@@ -44,10 +44,6 @@ function Introduction() {
         A % from the profits will be burnt to decrease supply. We plan to build
         alot around this token and we&apos;re always open to community ideas.
       </p>
-      <br />
-      <p className="text-4xl">
-        Fun fact : Littleboy was also the name of a nuclear warhead in WWII.
-      </p>
     </div>
   );
 }
@@ -534,7 +530,7 @@ function Resources() {
         </div>
       </div>
 
-      <div className="mx-7 mt-7 hidden justify-center gap-x-5 md:flex">
+      <div className="mx-7 mb-7 mt-10 hidden justify-center gap-x-5 md:flex">
         <div className="flex-1 rounded-md border-2 !border-black !bg-[#ead792] p-3 text-center">
           <ul>
             <li>
